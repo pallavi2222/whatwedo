@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Box1 from './Boxs/Box1'
 import {Headline,Box,Desc,InnerBox1,Button,InnerBox2,Images,Imagecaption,Total,Imagecontent,Pageno,Prev,Number,Next,Imagetitle,Imagedescription,Middle,ImageBottomcaption,Author,Date,Display} from './Whatwedo.styles'
 function Whatwedo() {
     return (
@@ -30,7 +29,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Cultural heritage for inclusive growth seeks to pioneer ways of creating inclusive and sustainable growth, enabling local communities to benefit from this growth and to actively...</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box2" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
@@ -42,7 +41,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Economic growth is the rate of utilization of the factors of production capital andlabor -and the efficiency of their use and increased use of capital relative to laborand....</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white',marginBottom:'0px'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box3" style={{textDecoration: 'none',color:'white',marginBottom:'0px'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             
@@ -58,7 +57,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Education is recognized to be an instrument for social change and it develops abilities, attitudes, and encouragement towards social development. Skills are a key component....</Imagedescription>
-                     <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                     <Link to="/Box4" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
 
@@ -71,7 +70,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Entrepreneurs stimulate employment growth by generating new jobs when they enter the market. The benefits to society will be greater in economies where entrepreneurs can operate....</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box5" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
@@ -83,7 +82,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Longstanding inequities in income, wealth, and opportunity have steadily worsened—and are now reaching unprecedented levels. While there is no single causal...</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white',marginBottom:'0px'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box6" style={{textDecoration: 'none',color:'white',marginBottom:'0px'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             
@@ -98,7 +97,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>The philosophy of holistic nutrition is that one’s health is an expression of the complex interplay between the physical and chemical, mental, and emotional, as well as....</Imagedescription>
-                     <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                     <Link to="/Box7" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
 
@@ -111,7 +110,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Transparency is relatively functioning an Organization While inclusion has been an underlying theme, transparency was assumed, but not enshrined. The biggest step to change....</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box8" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
@@ -123,7 +122,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Research is likely to lead to growth through a positive effect on innovation and technology. Inclusive innovation points to inequalities that may arise in the development....</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white',marginBottom:'0px'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box9" style={{textDecoration: 'none',color:'white',marginBottom:'0px'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             
@@ -138,7 +137,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Introducing Social protection calls by the global to develop the countries based not only on moral grounds and increasingly believe that it is an important instrument in economic....</Imagedescription>
-                     <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                     <Link to="/Box10" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
 
@@ -151,7 +150,7 @@ function Whatwedo() {
                     </Imagetitle>
                     
                     <Imagedescription>Inclusive and sustainable growth helps people to contribute to and benefit from economic growth with minimal impact on the environment. We believe that creating enabling....</Imagedescription>
-                    <Link to="/Videopage" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
+                    <Link to="/Box11" style={{textDecoration: 'none',color:'white'}}><Button>  Learn More</Button></Link>
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1 style={{border:'none',boxShadow:'none'}}>

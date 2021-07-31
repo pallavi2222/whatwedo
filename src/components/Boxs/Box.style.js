@@ -29,7 +29,7 @@ export const ImagesMobile = styled.img`
 display: none;
 @media only screen and (max-width: 600px) {      
     width:100%;
-    height:210px;
+    height:225px;
     display:flex;
 }
 `;
@@ -39,11 +39,11 @@ export const ContentOnImage = styled.h1`
     left: 66px;
     font-size: 45.5px;
     color: white;
-    width: 587px;
+    width:690px;
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     @media only screen and (max-width: 600px) {      
         position: absolute;
-    top: 61px;
+    top:70px;
     left: 24px;
     font-size: 23.5px;
     color: white;

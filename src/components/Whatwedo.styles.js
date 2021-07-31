@@ -73,7 +73,8 @@ padding:12.5px;
     margin-left: auto;
     margin-right: auto;  
     margin-bottom :30px;
-    width: 86.5%;;
+    width: 86.5%;
+    height:auto ;
 
 }
 `;

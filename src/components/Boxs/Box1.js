@@ -1,6 +1,8 @@
 import React from 'react'
 import {Container,Innercontainer,Images,ImagesMobile,ContentOnImage,Imagecaption,Moreitems,Items,Symbol,ContentBox,Content,Content1,SideContent} from './Box.style'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import { Link } from "react-router-dom";
+import Box2 from './Box2'
 function Box1() {
     return (
         <div>
@@ -23,17 +25,17 @@ Agriculture is important for increasing the rural standards of living. Thus, it 
                     <SideContent>
                         <Moreitems>More Items</Moreitems>
                         <hr></hr>
-                        <Items>Agriculture and Livelihood Cooperatives</Items>
-                        <Items>Culture, Heritage and Society</Items>
-                        <Items>Economic Development and Standard of Living</Items>
-                        <Items>Education, Employment and Skills</Items>
-                        <Items>Entrepreneurship, Businesses and Partnerships</Items>
-                        <Items>Equality & Distribution of Prosperity</Items>
-                        <Items>Holistic Health and Nutrition</Items>
-                        <Items>Inclusive Governance and Transparency</Items>
-                        <Items>Research, Technology and Innovation</Items>
-                        <Items>Rights, Policies and Social Protection</Items>
-                        <Items>Sustainability and Inclusion</Items>
+                        <Link to="/" style={{textDecoration: 'none'}}> <Items>Agriculture and Livelihood Cooperatives</Items></Link>
+                        <Link to="/Box2" style={{textDecoration: 'none'}}><Items>Culture, Heritage and Society</Items></Link>
+                        <Link to="/Box3" style={{textDecoration: 'none'}}><Items>Economic Development and Standard of Living</Items></Link>
+                        <Link to="/Box4" style={{textDecoration: 'none'}}><Items>Education, Employment and Skills</Items></Link>
+                        <Link to="/Box5" style={{textDecoration: 'none'}}><Items>Entrepreneurship, Businesses and Partnerships</Items></Link>
+                        <Link to="/Box6" style={{textDecoration: 'none'}}><Items>Equality & Distribution of Prosperity</Items></Link>
+                        <Link to="/Box7" style={{textDecoration: 'none'}}><Items>Holistic Health and Nutrition</Items></Link>
+                        <Link to="/Box8" style={{textDecoration: 'none'}}><Items>Inclusive Governance and Transparency</Items></Link>
+                        <Link to="/Box9" style={{textDecoration: 'none'}}><Items>Research, Technology and Innovation</Items></Link>
+                        <Link to="/Box10" style={{textDecoration: 'none'}}><Items>Rights, Policies and Social Protection</Items></Link>
+                        <Link to="/Box11" style={{textDecoration: 'none'}}><Items>Sustainability and Inclusion</Items></Link>
                     </SideContent>
                 </ContentBox>
             </Container>
