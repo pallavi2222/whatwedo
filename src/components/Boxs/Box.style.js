@@ -103,7 +103,7 @@ margin:0px;
 padding:0px;
 color: #141414;
 line-height: 1.3em;
-letter-spacing:0.1px ;
+letter-spacing:0.05px ;
 @media only screen and (max-width: 600px) {      
     font-size:14.5px;
 }
