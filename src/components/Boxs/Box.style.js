@@ -14,7 +14,7 @@ width:100%;
 background-color:#eef2f5;
 @media only screen and (max-width: 600px) {
    width: 100%;
-   height: 288px;
+   height: 300px;
 }
 `;
 export const Images = styled.img`
