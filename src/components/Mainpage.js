@@ -1,6 +1,5 @@
 import React from 'react'
 import Whatwedo  from './Whatwedo'
-import Videopage from './Videopage'
 
 import Box1 from './Boxs/Box1'
 import Box2 from './Boxs/Box2'

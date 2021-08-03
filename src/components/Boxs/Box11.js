@@ -28,7 +28,7 @@ function Box11() {
                         <Link to="/Box8" style={{textDecoration: 'none'}}><Items>Inclusive Governance and Transparency</Items></Link>
                         <Link to="/Box9" style={{textDecoration: 'none'}}><Items>Research, Technology and Innovation</Items></Link>
                         <Link to="/Box10" style={{textDecoration: 'none'}}><Items>Rights, Policies and Social Protection</Items></Link>
-                        <Link to="/" style={{textDecoration: 'none'}}><Items>Sustainability and Inclusion</Items></Link>
+                        <Link to="/Box11" style={{textDecoration: 'none'}}><Items>Sustainability and Inclusion</Items></Link>
                     </SideContent>
                 </ContentBox>
             </Container>

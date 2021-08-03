@@ -102,12 +102,10 @@ font-weight: normal;
 margin:0px;
 padding:0px;
 color: #141414;
-line-height: 1.3em;
-letter-spacing:0.05px ;
+line-height: 1.2em;
 @media only screen and (max-width: 600px) {      
     font-size:14.5px;
 }
-
 `;
 
 export const SideContent = styled.div`
